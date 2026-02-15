@@ -1,0 +1,13 @@
+/* ウェブフォントを使用する場合はここに定義を追加して下さい */
+/*
+@font-face {
+    font-family:"Rounded Mplus 1c ExtraBold";
+    src:url("../../data/others/MPLUSRounded1c-ExtraBold.ttf") format("truetype"),
+        url("../../data/others/MPLUSRounded1c-ExtraBold.eot?") format("eot"),
+        url("../../data/others/MPLUSRounded1c-ExtraBold.woff") format("woff"),
+	url("../../data/others/MPLUSRounded1c-ExtraBold.woff2") format("woff2");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+*/
