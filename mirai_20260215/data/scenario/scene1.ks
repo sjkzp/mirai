@@ -172,7 +172,7 @@
     [wait time=1200]
 
     [chara_mod name="mirai" face="smile" ]
-    [playse storage="mirai/mirai2_022.wav"]
+    [playse storage="mirai/mirai2_0225.wav"]
     正解！　バッチリだね！[p]
     [chara_mod name="mirai" face="kind" ]
     [playse storage="mirai/mirai2_0240.wav"]
