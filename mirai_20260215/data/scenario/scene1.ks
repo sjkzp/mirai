@@ -236,10 +236,7 @@
     やった！　全部クリアだよ！[p]
     [chara_mod name="mirai" face="kind" ]
     [playse storage="mirai/mirai2_0360.wav"]
-    なずなちゃん、パソコンもじょうずになったね！[p]
-    [chara_mod name="mirai" face="smile" ]
-    [playse storage="mirai/mirai2_0370.wav"]
-    １年まえよりも、もっとはなしやすくなった気がする！[p]
+    これできっと探し物が見つかるはず……[p]
 
     [eval exp="f.prg = 6"]
     @jump target="*ending"
