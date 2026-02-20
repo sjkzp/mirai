@@ -248,15 +248,23 @@
 [endif]
 
 *fail
-[chara_hide name="scan" ]
+[if exp="f.prg==2" ]
 
-[playse storage="scan.mp3"]
-[wait time=1200]
+    @jump target="*test2"
 
-[chara_mod name="mirai" face="sad" ]
-[playse storage="mirai/mirai_fail.wav"]
-ざんねん、ちがうみたい……[p]
-@jump target="*scan"
+[else]
+
+    [chara_hide name="scan" ]
+
+    [playse storage="scan.mp3"]
+    [wait time=1200]
+
+    [chara_mod name="mirai" face="sad" ]
+    [playse storage="mirai/mirai_fail.wav"]
+    ざんねん、ちがうみたい……[p]
+    @jump target="*scan"
+
+[endif]
 
 *ending
 [freeimage layer="1" ]
